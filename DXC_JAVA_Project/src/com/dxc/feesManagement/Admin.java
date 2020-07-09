@@ -16,8 +16,8 @@ public class Admin
 {
 	public void login(BufferedReader buff) throws SQLException 
 	{
-		String query1="Select AdminID from fees.AdminLogin where AdminID=?";
-		String query2="Select password from fees.AdminLogin where password=?";
+		String query1="Select AdminID from fees.adminlogin where AdminID=?";
+		String query2="Select password from fees.adminlogin where password=?";
 		try 
 		{
 			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/fees.adminlogin","root","Prasanna@1409");
