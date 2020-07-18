@@ -15,7 +15,7 @@ public class EmployeeDAO
 			Connection con = null;
 			Class.forName("com.mysql.jdbc.Driver");
 			if (con == null)
-				return con = DriverManager.getConnection("jdbc:mysql://localhost:3306/emp", "root", "root");
+				return con = DriverManager.getConnection("jdbc:mysql://localhost:3306/emp", "root", "Prasanna@1409");
 			else
 				return con;
 		}
